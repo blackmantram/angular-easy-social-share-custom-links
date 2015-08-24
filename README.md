@@ -1,6 +1,6 @@
-# AngularJS Easy Social Share
+# AngularJS Easy Social Share with custom URLs
 
-An easy way way to share the current page on an AngularJS app with Twitter, Facebook, Google Plus, and LinkedIn.
+An easy way way to share the current page or any desired page on an AngularJS app with Twitter, Facebook, Google Plus, and LinkedIn.
 
 This directive uses URL links to share your page's content on each of the social media networks and therefore doesn't require the use of an app ID.
 
@@ -30,3 +30,5 @@ This directive requires [Font Awesome](https://github.com/components/font-awesom
 ### Options
 
 If you would like to use the square version of Font Awesome, be sure to include the attribute `share-square="true"` otherwise it will use the version without the square.
+
+You can also share any page different to the current page by specifying the url you want to share using the attribute 'share-url=http://your.url'.
