@@ -31,4 +31,4 @@ This directive requires [Font Awesome](https://github.com/components/font-awesom
 
 If you would like to use the square version of Font Awesome, be sure to include the attribute `share-square="true"` otherwise it will use the version without the square.
 
-You can also share any page different to the current page by specifying the url you want to share using the attribute 'share-url=http://your.url'.
+You can also share any page different to the current page by specifying the url you want to share using the attribute `'share-url=http://your.url'`.
