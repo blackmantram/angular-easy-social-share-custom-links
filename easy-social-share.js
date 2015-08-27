@@ -8,7 +8,7 @@ angular.module('td.easySocialShare', [])
             sites = ['twitter', 'facebook', 'linkedin', 'google-plus'],
             theLink,
             links = attrs.shareLinks.toLowerCase().split(','),
-            pageLink = attrs.shareUrl ? attrs.shareUrl : encodeURIComponent($location.absUrl()),
+            pageLink = encodeURIComponent(attrs.shareUrl ? attrs.shareUrl : $location.absUrl()),
             pageTitle = attrs.shareTitle,
             pageTitleUri = encodeURIComponent(pageTitle),
             shareLinks = [],
